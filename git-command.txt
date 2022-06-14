@@ -4,4 +4,8 @@ git config user.email "email" กำหนด email
 git remote ชื่อbrach ชื่อgithub repository
 git add . เพิ่มไฟล์ที่ต้องการจะcommitโดยเลือกไฟล์ที่มีการupdateทั้งหมด
 commit -m "ชื่อcommit" สร้างcommit
-git push ส่งขึ้นgithub
+git push ชื่อbranch ส่งขึ้นgithub
+
+git checkout ชื่อbranch เปลี่ยน branch
+git branch ดูbranch
+
