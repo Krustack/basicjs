@@ -1,0 +1,8 @@
+let a =['h3llo','w0rld','th1s','is','w3bt0pl4']
+function sum(a,regex){
+   let arrNum = a.map((number)=>(number.match(regex || /\d+/g)))
+     let str = arrNum.reduce((preve,value)=>preve+value)
+     let test = str.split()
+     return arrNum
+}
+console.log(sum(a))
